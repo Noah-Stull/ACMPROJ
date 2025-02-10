@@ -1,10 +1,44 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="WWU STUDENT MARKET">
+  <meta name="author" content="Your Name">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login page</title>
+
+  <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    
+
+  <!-- Header section -->
+  <header>
+    <h1>Welcome to My Simple Page</h1>
+    <!-- Add top menu -->
+  </header>
+
+  <!-- Main content area -->
+  <main>
+
+    <div class="login-container">
+    <h2>Login</h2>
+      <form action="/login" method="POST">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter Username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter Password" required>
+        <button type="submit">Login</button>
+      </form>
+    </div>
+
+  </main>
+
+  <!-- Footer section -->
+  <footer>
+    <p>© 2025 WWU ACM. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
