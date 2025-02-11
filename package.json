@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Noah-Stull/ACMPROJ/issues"
   },
-  "homepage": "https://github.com/Noah-Stull/ACMPROJ#readme"
+  "homepage": "https://github.com/Noah-Stull/ACMPROJ#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }
