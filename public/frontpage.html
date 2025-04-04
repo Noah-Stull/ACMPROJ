@@ -8,19 +8,27 @@
     <link rel="stylesheet" href="fpsty.css">
 </head>
 <body>
-    <div class="navbar">navbar</div>
+    <div class="navbar">home | my page (or sign in) | settings</div>
 
-    <input type="search"/>
-    <button>search</button>
+    <input type="search" class="sb-home" placeholder="Search..."/>
 
-    <div class="subheader topsub">popular</div>
+    <div class="subheader topsub">popular (default) | recent</div>
 
-    <!--add cycling divs here-->
+    <!--figure out how many can fit dynamically on specific devices-->
+    <div class="art-container">
+        <div class="article">item 1</div>
+        <div class="article">item 2</div>
+        <div class="article">item 2</div>
+        <div class="article">item 2</div>
+        <div class="article">item 2</div>
+        <div class="article">item 2</div>
+        <div class="article">item 2</div>
+    </div>
 
-    <div class="subheader">recent</div>
+    <!--at some point, the above will be autopopulated by the backend upon load.
+        these are simply just placeholders for the planning process-->
 
-    <!--add cycling divs here-->
-
+    <!--no more cycling divs, just do infinite scroll (a thousand times easier and better for mobile)-->
 
 </body>
 </html>
