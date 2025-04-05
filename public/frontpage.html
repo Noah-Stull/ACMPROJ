@@ -8,11 +8,20 @@
     <link rel="stylesheet" href="fpsty.css">
 </head>
 <body>
-    <div class="navbar">home | my page (or sign in) | settings</div>
+    <div class="navbar">
+        <div class="navitem">home</div>
+        <div class="navitem">my page</div>
+        <div class="navitem">sign in</div>
+    </div>
 
-    <input type="search" class="sb-home" placeholder="Search..."/>
+    <div class="search-holder">
+        <input type="search" class="sb-home" placeholder="Search..."/>
+    </div>
 
-    <div class="subheader topsub">popular (default) | recent</div>
+    <div class="subheader">
+        <div class="subitem">popular</div>
+        <div class="subitem">recent</div>
+    </div>
 
     <!--figure out how many can fit dynamically on specific devices-->
     <div class="art-container">
