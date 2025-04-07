@@ -8,27 +8,30 @@
     <link rel="stylesheet" href="fpsty.css">
 </head>
 <body>
+    <!--replace navitems and subitems with pictures, reword class names-->
 
-    <!--keep logo to the left, but realign all navleft to far left with search bar
-        then in the middle, put popular, recent, categories, etc.-->
     <div class="navbar">
-        <div class="navleft">
-            <img src="0btLYd8GaR.jpg" height="125px">
+        <div class="navtrueleft">
+            <div class="navleft">
+                <img src="0btLYd8GaR.jpg" height="125px">
+            </div>
+            <div class="navright">
+                <div class="navitem">popular</div>
+                <div class="navitem">recent</div>
+                <div class="navitem">categories</div>
+            </div>
         </div>
-        <div class="navright">
-            <div class="navitem">home</div>
-            <div class="navitem">my page</div>
-            <div class="navitem">sign in</div>
+        <div class="navtrueright">
+            <div class="search-holder">
+                <input type="search" class="sb-home" placeholder="Search..."/>
+            </div>
+
+            <div class="subheader">
+                <div class="subitem">home</div>
+                <div class="subitem">user</div>
+                <div class="subitem">settings</div>
+            </div>  
         </div>
-    </div>
-
-    <div class="search-holder">
-        <input type="search" class="sb-home" placeholder="Search..."/>
-    </div>
-
-    <div class="subheader">
-        <div class="subitem">popular</div>
-        <div class="subitem">recent</div>
     </div>
 
     <!--figure out how many can fit dynamically on specific devices-->

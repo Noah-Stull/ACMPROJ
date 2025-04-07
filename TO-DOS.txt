@@ -1,0 +1,7 @@
+1a. Finish basic front-end for all possible pages <- Here
+1b. Polish each site before potentially moving some parts to React (optional, could move to the end to be honest)
+2. Connect database to the website (Express/Node, some random DB like Supabase or Mongo)
+3. Test Express functionality for updating front-end and database in conjunction with one another
+4. ??? (Go live?)
+
+(This is in no way final and subject to change, but should be a good guideline to go by for the time being)
